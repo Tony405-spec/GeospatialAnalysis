@@ -26,5 +26,21 @@ Key highlights:
 
 ---
 
+## Data Assumptions
+
+`ke.csv` stores Kenya city coordinates as latitude and longitude in WGS84 (`EPSG:4326`). Use these raw coordinates for mapping and point display. Reproject to an appropriate projected CRS before calculating distances, buffers, or areas because degree units are not distance units.
+
+Validate the CSV before analysis:
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/validate_ke_csv.py
+python -m pytest
+```
+
+The validator checks required columns and confirms latitude values are within `-90..90` and longitude values are within `-180..180`.
+
+---
+
 ## Project Structure
 
