@@ -23,6 +23,7 @@ Key highlights:
 - QGIS / ArcGIS (optional for extra GIS workflows)  
 - Jupyter Notebook for workflow documentation  
 - GeoJSON / Shapefiles for spatial datasets
+- Generated-output guidance is documented in [`ARTIFACTS.md`](ARTIFACTS.md)
 
 ---
 
