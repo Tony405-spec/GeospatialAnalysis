@@ -28,3 +28,4 @@ Key highlights:
 
 ## Project Structure
 
+Contribution guidance is available in [`CONTRIBUTING.md`](CONTRIBUTING.md).
