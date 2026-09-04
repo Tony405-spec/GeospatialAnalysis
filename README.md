@@ -15,6 +15,8 @@ Key highlights:
 - **Visualization & Mapping:** Created interactive maps with **Folium**, static plots with **Matplotlib/Seaborn**, and choropleth maps for regional trends.  
 - **Insights:** Identified high-density areas, regional hotspots, and spatial correlations to guide business or urban planning decisions.
 
+Dataset fields for `ke.csv` are documented in [`data_dictionary.md`](data_dictionary.md).
+
 ---
 
 ## Tools & Technologies
