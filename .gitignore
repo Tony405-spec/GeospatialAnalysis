@@ -1,5 +1,27 @@
-
-# Python cache files
+# Python caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Jupyter notebook runtime state
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Generated geospatial outputs
+outputs/
+exports/
+*.html
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Local archives
+*.zip
